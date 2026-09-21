@@ -51,9 +51,9 @@ agents do — they come from `files/`, imported with `--with-files`.
 by the platform, and an `agents/pod_default/` folder is rejected on import. Its rules live
 in `files/memory/agents/lem.md`, which `files/memory/AGENTS.md` points it at.
 
-**Every agent gets a mailbox when it is created**, named `resend-<agent>-<suffix>`. A
-bundle surface with the plain name collides with it, so `surfaces/` holds only the pod
-assistant's.
+**Every agent gets a mailbox when it is created** — the pod's own assistant too — named
+`resend-<agent>-<suffix>`. A bundle surface with the plain name collides with it, so this
+bundle declares none.
 
 **Import upserts by name.** A resource's folder name is its primary key forever; renaming
 one creates a second resource and orphans the first.

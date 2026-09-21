@@ -196,7 +196,6 @@ tables/                    fifteen tables; JSON carries columns and row-level se
 functions/                 code.py + JSON with each function's grants
 agents/                    instruction.md + JSON with each agent's grants and toolsets
 schedules/                 the four automations
-surfaces/                  the pod assistant's email address (agents get theirs on creation)
 files/memory/              the agents' rulebook — read before every run
 apps/vc-analyst/           DESIGN.md + source/ — BUILT output, uploaded as-is
 app/                       the React + Vite project source/ is built from

@@ -38,19 +38,28 @@ fi
 
 # 2. Everything except the automations.
 #
-#    No build and no --var: `apps/vc-analyst/source/` is built output with no
-#    package.json, so the CLI uploads it as-is. --with-files brings the agents'
+#    No build: `apps/vc-analyst/source/` is built output with no package.json,
+#    so the CLI uploads it as-is. --with-files brings the agents'
 #    rulebook in /memory, which their instructions read first.
 #
 #    The automations come last (step 5), after the seed data: `evaluate-new-deal`
 #    and `review-new-activity` fire on inserts, and the platform matches a row
 #    event to automations a few seconds after the insert — so pausing them during
 #    the seed is not enough. One that does not exist yet cannot match.
+#
+#    The app's address is taken from the random end of the pod id. Left to
+#    itself the platform falls back to the *start* of the id when `vc-analyst`
+#    is taken, and pod ids start with a timestamp — two pods made in the same
+#    second would collide.
 mkdir -p "$WORK/bundle"
-for part in pod.json tables functions agents apps surfaces files; do
+for part in pod.json tables functions agents apps files; do
   cp -R "$part" "$WORK/bundle/"
 done
-imp "$WORK/bundle" --with-files
+SLUG="$(lemma --json apps get vc-analyst 2>/dev/null \
+  | python3 -c 'import json,sys; print(json.load(sys.stdin).get("public_slug") or "")' 2>/dev/null || true)"
+# A re-run keeps the address the app already has.
+SLUG="${SLUG:-vc-analyst-$(printf %s "$LEMMA_POD_ID" | tr -d - | tail -c 8)}"
+imp "$WORK/bundle" --with-files --var "vc_analyst_slug=$SLUG"
 
 # 3. The connectors onboarding offers, installed on the org if they are not
 #    already. Installing is not connecting: each partner still signs in with
@@ -97,7 +106,9 @@ for p in pathlib.Path(sys.argv[1]).glob("*/*.json"):
 PY
 imp "$AUTO"
 
-# 6. Read back what actually landed, and the addresses it was given.
+# 6. Read back what actually landed, and the addresses it was given. Every
+#    agent, and the pod's own assistant, is given a mailbox on creation, named
+#    resend-<agent>-<suffix> — so none are declared in the bundle.
 APP_URL="$(lemma --json apps get vc-analyst | python3 -c 'import json,sys; print(json.load(sys.stdin).get("url") or "the app")')"
 INBOXES="$(lemma --json surfaces list | python3 -c '
 import json, sys
