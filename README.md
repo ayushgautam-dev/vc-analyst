@@ -13,10 +13,10 @@ moves a deal, changes a filled field, or sends an email. Every value on a deal c
 where it came from — the deck, the email, a web page, or a partner — so a number without
 a source is visibly one.
 
-[![A WhatsApp tip about a founder becomes a researched, scored deal card — watch the 14-second walkthrough](docs/vc-analyst-journey.jpg)](docs/vc-analyst-journey.mp4)
+[![A partner's WhatsApp tip about a founder becomes a researched, scored deal card](docs/vc-analyst-journey.gif)](docs/vc-analyst-journey.mp4)
 
 *A partner's WhatsApp tip → the founder found and verified → scored against the thesis →
-a deal card with every source attached. [Watch the 14-second walkthrough](docs/vc-analyst-journey.mp4).*
+a deal card with every source attached. ([Full-quality video](docs/vc-analyst-journey.mp4).)*
 
 ---
 
@@ -205,7 +205,7 @@ files/memory/              the agents' rulebook — read before every run
 apps/vc-analyst/           DESIGN.md + source/ — BUILT output, uploaded as-is
 app/                       the React + Vite project source/ is built from
 seed/                      option lists, the sample deal flow, and the scripts that load and clear it
-docs/                      the walkthrough video
+docs/                      the walkthrough, as a GIF (autoplays in the README) and the source mp4
 ```
 
 ## Built with
