@@ -11,7 +11,7 @@
   "filter_instruction": "Wake the evaluator only when the new activity could change the investment case. That means: a company metric or traction number (ARR, growth, customers, retention, unit economics), a change to the raise (round size, valuation, terms, a new lead investor), a change to the team (a founder joins or leaves), a new deck or data-room document, or a genuine shift in the market for the company. Do not wake it for a thank-you, a scheduling exchange, a calendar acceptance, an acknowledgement, a forwarded link with no new information, or a re-send of something already on the deal. When in doubt, do not wake it.",
   "filter_output_schema": null,
   "instruction": null,
-  "is_active": false,
+  "is_active": true,
   "name": "rescore-on-activity",
   "schedule_type": "DATASTORE",
   "visibility": "POD",

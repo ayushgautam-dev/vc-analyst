@@ -33,8 +33,8 @@ every visitor, and that session belongs to a person.
 matches a row event to automations a few seconds after the insert, so pausing
 `evaluate-new-deal` and `review-new-activity` while loading rows still wakes an agent per
 row once they are resumed. `setup.sh` imports everything except `schedules/`, seeds, then
-imports `schedules/`. A plain `lemma pods import .` of this bundle imports all four
-automations **paused** (`is_active: false`) — resume the three internal ones afterwards.
+imports `schedules/`. All four ship switched on (`is_active: true`), so a plain
+`lemma pods import .` of this bundle turns them on too — load rows before, not after.
 
 **`gmail-intake` is routed on create only.** Import it without
 `--var gmail_intake_account=<id>` and it has no account and can never fire; import it

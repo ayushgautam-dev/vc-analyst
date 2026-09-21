@@ -4,10 +4,10 @@
 #   LEMMA_POD_ID=<pod> ./setup.sh
 #   LEMMA_POD_ID=<pod> ./setup.sh --no-sample     # skip the sample deal flow
 #
-# About a minute and a half, and safe to run again. It leaves `gmail-intake` OFF — it reads
-# somebody's inbox, and that is theirs to switch on (./wire-gmail.sh). The three
-# automations that only react to rows inside the pod are created last, after
-# the seed data is in, so they never wake an agent for a sample row.
+# About a minute and a half, and safe to run again. Every automation is switched
+# on; they are created last, after the seed data is in, so they never wake an
+# agent for a sample row. `gmail-intake` hears nothing until somebody connects
+# Gmail and runs ./wire-gmail.sh.
 set -euo pipefail
 cd "$(dirname "$0")"
 : "${LEMMA_POD_ID:?set LEMMA_POD_ID to the pod to set up}"
@@ -86,8 +86,8 @@ done
 # 4. Starting data: option lists, you as a partner, the sample deal flow.
 python3 seed/load.py "${SEED_ARGS[@]+"${SEED_ARGS[@]}"}"
 
-# 5. The automations. The three that only react to rows inside the pod go in
-#    switched on; `gmail-intake` goes in off and unrouted — ./wire-gmail.sh.
+# 5. The automations, all switched on. `gmail-intake` is on but has no inbox
+#    to listen to until somebody connects Gmail and runs ./wire-gmail.sh.
 AUTO="$WORK/automations"
 mkdir -p "$AUTO"
 cp pod.json "$AUTO/"
@@ -101,7 +101,7 @@ python3 - "$AUTO/schedules" <<'PY'
 import json, pathlib, sys
 for p in pathlib.Path(sys.argv[1]).glob("*/*.json"):
     d = json.loads(p.read_text())
-    d["is_active"] = d["name"] in ("evaluate-new-deal", "rescore-on-activity", "review-new-activity")
+    d["is_active"] = True
     p.write_text(json.dumps(d, indent=2))
 PY
 imp "$AUTO"

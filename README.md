@@ -86,7 +86,7 @@ slide. The app shows it next to the value.
 | schedule | `evaluate-new-deal` | New deal → `deal-evaluator`. |
 | schedule | `rescore-on-activity` | New activity that could change the investment case → `deal-evaluator`. |
 | schedule | `review-new-activity` | New activity → `deal-associate`. |
-| schedule | `gmail-intake` | New Gmail message → `intake`. **Off until you wire it** — see below. |
+| schedule | `gmail-intake` | New Gmail message → `intake`. On, but hears nothing until you wire Gmail — see below. |
 | app | `vc-analyst` | Inbox · Pipeline · Deal · People · Thesis · Settings. Design notes in [`apps/vc-analyst/DESIGN.md`](apps/vc-analyst/DESIGN.md). |
 | files | `/memory`, `/decks` | The agents' rulebook, and where intake saves every deck it receives. |
 
@@ -138,7 +138,7 @@ LEMMA_POD_ID=<pod> ./wire-gmail.sh
 ```
 
 Run it once somebody has connected Gmail (the app's onboarding or Settings does that).
-It points `gmail-intake` at that inbox and turns it on. Every new email is offered to a
+It points `gmail-intake` at that inbox. Every new email is offered to a
 cheap filter first; only what could be a company raising money wakes `intake`.
 
 > **Why a script and not a setting.** A webhook automation takes its routing key from the
@@ -169,7 +169,7 @@ Without either, the pod works; founder cards just stay as thin as the email made
 
 ```bash
 lemma pods describe                                   # everything landed
-lemma schedules list                                  # three on, gmail-intake off until wired
+lemma schedules list                                  # all four on
 lemma records list deals --limit 20                   # the sample, if loaded
 lemma chat deal-assistant "What is in the pipeline?"  # an agent that can read the board
 ```

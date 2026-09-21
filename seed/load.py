@@ -16,7 +16,7 @@ Three kinds of rows, and only one of them is pretend:
 
 Sample dates are shifted so the newest activity is yesterday, whenever this runs.
 
-Run it while the automations are paused (setup.sh does): `evaluate-new-deal` and
+Run it before the automations exist (setup.sh does): `evaluate-new-deal` and
 `review-new-activity` fire on every insert, and waking two agents per sample row
 would be slow, would spend LLM budget, and would rewrite the sample.
 """
