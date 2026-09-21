@@ -1,0 +1,19 @@
+{
+  "account_id": null,
+  "agent_name": "deal-associate",
+  "config": {
+    "operations": [
+      "INSERT"
+    ],
+    "table_name": "activities"
+  },
+  "connector_trigger_id": null,
+  "filter_instruction": null,
+  "filter_output_schema": null,
+  "instruction": null,
+  "is_active": false,
+  "name": "review-new-activity",
+  "schedule_type": "DATASTORE",
+  "visibility": "POD",
+  "workflow_name": null
+}

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "41e1114b-92f1-592d-b1ff-5fcf33bd747e",
+  "name": "Meera Kulkarni",
+  "role": "founder",
+  "company_name": "Ledgerline",
+  "deal_id": "509eb1f8-134c-5d96-a438-bf21ec561976",
+  "headline": "Co-founder & CEO, Ledgerline",
+  "email": "meera@ledgerline.example",
+  "enrichment_status": "done",
+  "about": "Co-founder & CEO at Ledgerline. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "d1815f5d-a089-58b0-9de0-998744ea1da5",
+  "name": "Arjun Rao",
+  "role": "founder",
+  "company_name": "Kiln Health",
+  "deal_id": "d532d137-cd73-51aa-b23f-8fd730043bf3",
+  "headline": "Founder, Kiln Health",
+  "email": "arjun@kilnhealth.example",
+  "enrichment_status": "done",
+  "about": "Founder at Kiln Health. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "f4cc45d8-ba97-5f9a-b701-9582784b0608",
+  "name": "Wei Ling Tan",
+  "role": "founder",
+  "company_name": "Tidewater Freight",
+  "deal_id": "0915e7cd-ec34-5410-a539-fd0e54e4ca3f",
+  "headline": "Co-founder & CEO, Tidewater Freight",
+  "email": "wei@tidewaterfreight.example",
+  "enrichment_status": "done",
+  "about": "Co-founder & CEO at Tidewater Freight. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "3a298409-d405-516b-8b9c-42dc2b1d619c",
+  "name": "Sam Okafor",
+  "role": "founder",
+  "company_name": "Brightloom Labs",
+  "deal_id": "0bb541ec-a871-5c34-8a1b-7be773b9e96a",
+  "headline": "Co-founder & CEO, Brightloom Labs",
+  "email": "sam@brightloomlabs.example",
+  "enrichment_status": "done",
+  "about": "Co-founder & CEO at Brightloom Labs. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "bad29ed4-143e-5fea-b12a-88010870716e",
+  "name": "Nikhil Varma",
+  "role": "founder",
+  "company_name": "Quarry Security",
+  "deal_id": "1efa38cb-292b-5492-aaca-5b434bef4270",
+  "headline": "Co-founder & CTO, Quarry Security",
+  "email": "nikhil@quarrysecurity.example",
+  "enrichment_status": "done",
+  "about": "Co-founder & CTO at Quarry Security. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "cf40b078-0295-5a84-848e-8db9ef2ab230",
+  "name": "Priya Menon",
+  "role": "founder",
+  "company_name": "Parcelcraft",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "headline": "Founder & CEO, Parcelcraft",
+  "email": "priya@parcelcraft.example",
+  "enrichment_status": "done",
+  "about": "Founder & CEO at Parcelcraft. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "93b8890c-cc21-5e98-9ee4-6d703a79d7c5",
+  "name": "Dr. Kavya Iyer",
+  "role": "founder",
+  "company_name": "Fernhollow Bio",
+  "deal_id": "ff51f09a-14ea-5323-ab75-2206becd3ba3",
+  "headline": "Co-founder & Chief Scientist, Fernhollow Bio",
+  "email": "kavya@fernhollowbio.example",
+  "enrichment_status": "done",
+  "about": "Co-founder & Chief Scientist at Fernhollow Bio. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "36e54513-999c-5cca-9132-4dc8279d98f9",
+  "name": "Rohan Desai",
+  "role": "founder",
+  "company_name": "Stackwise",
+  "deal_id": "63ed5686-ed9a-555d-bec9-8d79f1676431",
+  "headline": "Co-founder & CEO, Stackwise",
+  "email": "rohan@stackwise.example",
+  "enrichment_status": "done",
+  "about": "Co-founder & CEO at Stackwise. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "272cc2df-da36-522d-aae6-33760c28ccfc",
+  "name": "Hannah Price",
+  "role": "founder",
+  "company_name": "Moonrail",
+  "deal_id": "2dcc4928-43f6-5ef1-bde5-235affaa346a",
+  "headline": "Founder, Moonrail",
+  "email": "hannah@moonrail.example",
+  "enrichment_status": "done",
+  "about": "Founder at Moonrail. (Sample person — invented for the demo.)"
+ },
+ {
+  "id": "19608a4c-51eb-532c-8519-323a8b463bad",
+  "name": "Imran Sheikh",
+  "role": "founder",
+  "company_name": "Orbitdesk",
+  "deal_id": "dbf613b0-102a-5e1b-8784-ad6cdf14004d",
+  "headline": "Founder, Orbitdesk",
+  "email": "imran@orbitdesk.example",
+  "enrichment_status": "done",
+  "about": "Founder at Orbitdesk. (Sample person — invented for the demo.)"
+ }
+]

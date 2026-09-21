@@ -1,0 +1,18 @@
+{
+  "account_id": "${gmail_intake_account}",
+  "agent_name": "intake",
+  "config": {
+    "source": "composio"
+  },
+  "connector_id": "gmail",
+  "connector_kind": "composio",
+  "connector_trigger_id": "gmail:composio:gmail_new_gmail_message",
+  "filter_instruction": "Keep a message if it could be a company raising money, or a message about a deal the fund is already working on: a cold email from a founder, a forward of a pitch or deck, an introduction from a mutual contact, an investor update, a data room invite, or a reply that continues a fundraising conversation. Drop it only when it is plainly none of those: a newsletter, an automated notification, a receipt or invoice, a calendar accept or decline, spam or a promo blast, someone selling a product or service TO the fund (agencies, tools, recruiters pitching candidates, event sponsors), or mail the fund sent itself. When it is genuinely unclear, keep it: a deal wrongly dropped is invisible, while a deal wrongly kept is dismissed in one click from the inbox.",
+  "filter_output_schema": null,
+  "instruction": null,
+  "is_active": false,
+  "name": "gmail-intake",
+  "schedule_type": "WEBHOOK",
+  "visibility": "PERSONAL",
+  "workflow_name": null
+}

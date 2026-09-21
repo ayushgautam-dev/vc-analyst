@@ -1,0 +1,200 @@
+[
+ {
+  "field_name": "decision",
+  "value": "undecided",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "decision",
+  "value": "proceed",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "decision",
+  "value": "pass",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "funding_stage",
+  "value": "bootstrapped",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "funding_stage",
+  "value": "pre_seed",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "funding_stage",
+  "value": "seed",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "funding_stage",
+  "value": "series_a",
+  "sort_order": 30,
+  "active": true
+ },
+ {
+  "field_name": "funding_stage",
+  "value": "series_b",
+  "sort_order": 40,
+  "active": true
+ },
+ {
+  "field_name": "funding_stage",
+  "value": "series_c_plus",
+  "sort_order": 50,
+  "active": true
+ },
+ {
+  "field_name": "instrument",
+  "value": "safe",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "instrument",
+  "value": "equity",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "instrument",
+  "value": "convertible_note",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "instrument",
+  "value": "other",
+  "sort_order": 30,
+  "active": true
+ },
+ {
+  "field_name": "pass_reason",
+  "value": "stage_mismatch",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "pass_reason",
+  "value": "geo_mismatch",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "pass_reason",
+  "value": "thesis_mismatch",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "pass_reason",
+  "value": "weak_team",
+  "sort_order": 30,
+  "active": true
+ },
+ {
+  "field_name": "pass_reason",
+  "value": "other",
+  "sort_order": 40,
+  "active": true
+ },
+ {
+  "field_name": "round_status",
+  "value": "not_raising",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "round_status",
+  "value": "open",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "round_status",
+  "value": "closing",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "round_status",
+  "value": "closed",
+  "sort_order": 30,
+  "active": true
+ },
+ {
+  "field_name": "source",
+  "value": "email",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "source",
+  "value": "whatsapp",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "source",
+  "value": "manual",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "new",
+  "sort_order": 0,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "screening",
+  "sort_order": 10,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "first_meeting",
+  "sort_order": 20,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "diligence",
+  "sort_order": 30,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "ic_review",
+  "sort_order": 40,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "invested",
+  "sort_order": 50,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "passed",
+  "sort_order": 60,
+  "active": true
+ },
+ {
+  "field_name": "stage",
+  "value": "parked",
+  "sort_order": 70,
+  "active": true
+ }
+]

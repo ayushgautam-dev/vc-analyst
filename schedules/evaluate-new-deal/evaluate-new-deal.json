@@ -1,0 +1,19 @@
+{
+  "account_id": null,
+  "agent_name": "deal-evaluator",
+  "config": {
+    "operations": [
+      "INSERT"
+    ],
+    "table_name": "deals"
+  },
+  "connector_trigger_id": null,
+  "filter_instruction": null,
+  "filter_output_schema": null,
+  "instruction": null,
+  "is_active": false,
+  "name": "evaluate-new-deal",
+  "schedule_type": "DATASTORE",
+  "visibility": "POD",
+  "workflow_name": null
+}

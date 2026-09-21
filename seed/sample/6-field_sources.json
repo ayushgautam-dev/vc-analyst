@@ -1,0 +1,62 @@
+[
+ {
+  "id": "c1361562-a420-5def-b030-86437a3e410d",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "field_name": "arr",
+  "value": "$1.4M",
+  "source_class": "deck",
+  "evidence_note": "Deck, slide 9 (sample)",
+  "confidence": 0.9,
+  "written_by": "sample"
+ },
+ {
+  "id": "f849ca64-0439-5301-920c-bbbc42d3e152",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "field_name": "paying_customers",
+  "value": "140",
+  "source_class": "deck",
+  "evidence_note": "Deck, slide 9 (sample)",
+  "confidence": 0.9,
+  "written_by": "sample"
+ },
+ {
+  "id": "3b7683e6-6350-5f4a-b49c-73b0bc5aac92",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "field_name": "key_metric",
+  "value": "Net revenue retention 128%",
+  "source_class": "message",
+  "evidence_note": "Data-room cohort sheet (sample)",
+  "confidence": 0.9,
+  "written_by": "sample"
+ },
+ {
+  "id": "93c1d3be-b125-59ef-8f3d-ca66549c3f34",
+  "deal_id": "1efa38cb-292b-5492-aaca-5b434bef4270",
+  "field_name": "arr",
+  "value": "$240K",
+  "source_class": "deck",
+  "evidence_note": "Deck, slide 7 (sample)",
+  "confidence": 0.9,
+  "written_by": "sample"
+ },
+ {
+  "id": "14787f45-4fe7-55bb-be63-f26ed449a601",
+  "deal_id": "0bb541ec-a871-5c34-8a1b-7be773b9e96a",
+  "field_name": "arr",
+  "value": "$180K",
+  "source_class": "deck",
+  "evidence_note": "Deck, slide 6 (sample)",
+  "confidence": 0.9,
+  "written_by": "sample"
+ },
+ {
+  "id": "a3bc5cdf-a272-5bad-9300-5f9abe8fcee4",
+  "deal_id": "63ed5686-ed9a-555d-bec9-8d79f1676431",
+  "field_name": "arr",
+  "value": "$900K",
+  "source_class": "message",
+  "evidence_note": "Monthly update email (sample)",
+  "confidence": 0.9,
+  "written_by": "sample"
+ }
+]

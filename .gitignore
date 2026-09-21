@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tsbuildinfo
+*.zip
+
+# Machine-local bindings: which pod, which account, which token. Never commit.
+*.local.json
+.env
+.env.local
+.env.*.local
+.lemma.env
+.lemma.*.env
+
+.DS_Store

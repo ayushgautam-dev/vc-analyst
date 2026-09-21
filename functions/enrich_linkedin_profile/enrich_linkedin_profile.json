@@ -1,0 +1,14 @@
+{
+  "code": {
+    "$file": "code.py"
+  },
+  "config": null,
+  "description": "Enrich a LinkedIn profile URL into structured founder data (headline, experience, education, skills, email). Monid/Apify primary ($0.015/profile, richest fields), Bright Data fallback ($0.0015, adds followers/connections). Keys are read from the invoking user's /me/keys/ tree.",
+  "icon_url": null,
+  "name": "enrich_linkedin_profile",
+  "permissions": {
+    "grants": []
+  },
+  "type": "API",
+  "visibility": "POD"
+}

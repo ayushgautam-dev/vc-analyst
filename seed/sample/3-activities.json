@@ -1,0 +1,128 @@
+[
+ {
+  "id": "1f1d7fcb-c9a2-5168-960e-3f5ecf07127f",
+  "deal_id": "509eb1f8-134c-5d96-a438-bf21ec561976",
+  "type": "email",
+  "occurred_at": "2026-09-20T10:00:00Z",
+  "title": "Intro: Ledgerline — AP automation, raising $2M seed",
+  "summary": "Meera wrote in with a deck. Three pilots with auto-component makers, paid pilots converting next quarter.",
+  "direction": "inbound"
+ },
+ {
+  "id": "ecce8ed0-a05e-5e5f-9f67-84a6408be35e",
+  "deal_id": "d532d137-cd73-51aa-b23f-8fd730043bf3",
+  "type": "email",
+  "occurred_at": "2026-09-20T10:00:00Z",
+  "title": "Kiln Health — deck and a short demo video",
+  "summary": "Inbound. 11 clinics live across two chains; asking for a first call next week.",
+  "direction": "inbound"
+ },
+ {
+  "id": "3ce7c7cf-8ebf-500c-8966-34c403f8fa92",
+  "deal_id": "0915e7cd-ec34-5410-a539-fd0e54e4ca3f",
+  "type": "email",
+  "occurred_at": "2026-09-19T10:00:00Z",
+  "title": "Intro from a portfolio founder: Tidewater Freight",
+  "summary": "Warm intro. Claims 2.1% of audited freight spend recovered for current customers.",
+  "direction": "inbound"
+ },
+ {
+  "id": "4b44b1fb-3333-57f2-9a79-4a50f3453c5c",
+  "deal_id": "0bb541ec-a871-5c34-8a1b-7be773b9e96a",
+  "type": "meeting",
+  "occurred_at": "2026-09-15T10:00:00Z",
+  "title": "Screening call with Sam",
+  "summary": "Walked through the CI integration. 14 paying teams; most expansion comes from adding eval suites per feature.",
+  "direction": "internal"
+ },
+ {
+  "id": "3296a047-00de-5c09-b5a5-d08eaa7b0346",
+  "deal_id": "0bb541ec-a871-5c34-8a1b-7be773b9e96a",
+  "type": "email",
+  "occurred_at": "2026-09-18T11:00:00Z",
+  "title": "Brightloom — customer list for references",
+  "summary": "Sam shared two design partners who agreed to take a reference call.",
+  "direction": "inbound"
+ },
+ {
+  "id": "45a80d9e-0346-55be-b7d1-f935217dbe70",
+  "deal_id": "1efa38cb-292b-5492-aaca-5b434bef4270",
+  "type": "email",
+  "occurred_at": "2026-09-17T10:00:00Z",
+  "title": "Quarry Security — raising $3.5M seed",
+  "summary": "Deck plus a SOC-2 roadmap. Median time from leak to revocation: under four minutes.",
+  "direction": "inbound"
+ },
+ {
+  "id": "dce2a493-054f-5b2c-a549-029405e3d3ee",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "type": "meeting",
+  "occurred_at": "2026-09-09T10:00:00Z",
+  "title": "First meeting — Priya and the COO",
+  "summary": "Returns volume up 3x in a year; per-return fee is now 40% of revenue.",
+  "direction": "internal"
+ },
+ {
+  "id": "ad87f5d6-104d-5156-a954-b44ebee7ee98",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "type": "email",
+  "occurred_at": "2026-09-16T11:00:00Z",
+  "title": "Parcelcraft data room",
+  "summary": "Data room opened: cohort retention, unit economics by brand size, customer list.",
+  "direction": "inbound"
+ },
+ {
+  "id": "1e5191e9-7534-5d2b-8202-7456fa7bd72c",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "type": "note",
+  "occurred_at": "2026-09-19T12:00:00Z",
+  "title": "Diligence note",
+  "summary": "Retention is strong; open question is whether the per-return fee holds for the largest brands.",
+  "direction": "internal"
+ },
+ {
+  "id": "1a44efb0-4079-5910-b8e3-0b9399f70920",
+  "deal_id": "ff51f09a-14ea-5323-ab75-2206becd3ba3",
+  "type": "meeting",
+  "occurred_at": "2026-09-06T10:00:00Z",
+  "title": "Field visit — trial plots",
+  "summary": "Second-season trial data looks consistent with the first.",
+  "direction": "internal"
+ },
+ {
+  "id": "ace60375-d444-5aea-ac6e-e943432640aa",
+  "deal_id": "ff51f09a-14ea-5323-ab75-2206becd3ba3",
+  "type": "note",
+  "occurred_at": "2026-09-20T11:00:00Z",
+  "title": "IC memo drafted",
+  "summary": "Memo circulated to partners ahead of IC.",
+  "direction": "internal"
+ },
+ {
+  "id": "9ab81ba9-71b3-5442-bcda-218132873708",
+  "deal_id": "63ed5686-ed9a-555d-bec9-8d79f1676431",
+  "type": "email",
+  "occurred_at": "2026-09-12T10:00:00Z",
+  "title": "Stackwise monthly update",
+  "summary": "ARR crossed $900K; two enterprise pilots signed.",
+  "direction": "inbound"
+ },
+ {
+  "id": "0b8c24c6-f348-5b19-94ad-e66dc7b519cb",
+  "deal_id": "2dcc4928-43f6-5ef1-bde5-235affaa346a",
+  "type": "email",
+  "occurred_at": "2026-09-01T10:00:00Z",
+  "title": "Passing on Moonrail",
+  "summary": "Sent a kind pass: consumer is outside the thesis.",
+  "direction": "outbound"
+ },
+ {
+  "id": "6c755615-dcbf-5e0b-aa8e-587c9445030b",
+  "deal_id": "dbf613b0-102a-5e1b-8784-ad6cdf14004d",
+  "type": "call",
+  "occurred_at": "2026-08-22T10:00:00Z",
+  "title": "Intro call with Imran",
+  "summary": "Pilot with a telecom installer starts next month; asked to reconnect after it.",
+  "direction": "internal"
+ }
+]

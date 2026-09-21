@@ -1,0 +1,118 @@
+{
+  "files": [
+    {
+      "description": null,
+      "path": "/memory/AGENTS.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/deal-associate/AGENTS.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/intake/AGENTS.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/deal-evaluator/AGENTS.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": "Associate playbook \u2014 corrected to the pod's live tables (suggestions/tasks).",
+      "path": "/memory/agents/associate.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": "Lesson: parallel associate runs on one deal can race; re-check pending proposals before inserting.",
+      "path": "/memory/agents/deal-associate/concurrency.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/enrichment-fields.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/evaluator.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/deal-evaluator/founder-name-arrivals.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/fund.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/guardrails.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/intake.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/intake.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/lem.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/intake/name-collisions.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": "Pod map \u2014 Tables section corrected to the live schema.",
+      "path": "/memory/pod-map.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/deal-evaluator/scoring.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/agents/deal-evaluator/verification.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    },
+    {
+      "description": null,
+      "path": "/memory/vocabulary.md",
+      "search_enabled": true,
+      "visibility": "POD"
+    }
+  ]
+}

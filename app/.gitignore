@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tsbuildinfo
+*.zip
+
+# Machine-local bindings: which pod, which deployment, which token.
+.env
+.env.local
+.env.*.local
+.lemma.env
+.lemma.*.env
+
+.DS_Store

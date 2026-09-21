@@ -1,0 +1,65 @@
+[
+ {
+  "id": "2eccbfbf-1e23-51ad-936f-8bf87fb75ac8",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "version": 1,
+  "content": "# Parcelcraft — report v1\n\n*Sample report, invented for the demo.*\n\n## Brief\n\nReturns portal, reverse-logistics routing and refunds for D2C brands. Clear retention story; diligence is on unit economics of the per-return fee.\n\n## Why it could work\n\n- The team has done this before.\n- Customers expand once they are in.\n\n## What would have to be true\n\n- The pricing holds at larger customers.\n- Distribution scales beyond the first region.\n\n## Thesis fit\n\nInside the fund's stage and sector focus.\n",
+  "radar": {
+   "Team": 4.0,
+   "Market": 4.0,
+   "Product": 4.0,
+   "Traction": 4.0,
+   "Thesis fit": 4.0
+  },
+  "scores": {
+   "team": 4.0,
+   "market": 4.0,
+   "product": 4.0,
+   "traction": 4.0,
+   "thesis_fit": 4.0,
+   "overall": 78
+  }
+ },
+ {
+  "id": "36f01c87-9317-54e6-8c7c-e7325b0aee8e",
+  "deal_id": "ff51f09a-14ea-5323-ab75-2206becd3ba3",
+  "version": 1,
+  "content": "# Fernhollow Bio — report v1\n\n*Sample report, invented for the demo.*\n\n## Brief\n\nBiological inputs for paddy that cut urea use by roughly a fifth in two seasons of field trials. Team of agronomists with a distribution partner signed.\n\n## Why it could work\n\n- The team has done this before.\n- Customers expand once they are in.\n\n## What would have to be true\n\n- The pricing holds at larger customers.\n- Distribution scales beyond the first region.\n\n## Thesis fit\n\nInside the fund's stage and sector focus.\n",
+  "radar": {
+   "Team": 4.5,
+   "Market": 3.5,
+   "Product": 3.5,
+   "Traction": 3.0,
+   "Thesis fit": 4.0
+  },
+  "scores": {
+   "team": 4.5,
+   "market": 3.5,
+   "product": 3.5,
+   "traction": 3.0,
+   "thesis_fit": 4.0,
+   "overall": 74
+  }
+ },
+ {
+  "id": "5cbf6669-70f5-5acb-b483-23efd4d5455f",
+  "deal_id": "1efa38cb-292b-5492-aaca-5b434bef4270",
+  "version": 1,
+  "content": "# Quarry Security — report v1\n\n*Sample report, invented for the demo.*\n\n## Brief\n\nScans repos, CI logs and chat for leaked cloud keys and revokes them automatically. Founders previously ran incident response at a large cloud provider.\n\n## Why it could work\n\n- The team has done this before.\n- Customers expand once they are in.\n\n## What would have to be true\n\n- The pricing holds at larger customers.\n- Distribution scales beyond the first region.\n\n## Thesis fit\n\nInside the fund's stage and sector focus.\n",
+  "radar": {
+   "Team": 4.0,
+   "Market": 3.5,
+   "Product": 3.5,
+   "Traction": 3.0,
+   "Thesis fit": 4.0
+  },
+  "scores": {
+   "team": 4.0,
+   "market": 3.5,
+   "product": 3.5,
+   "traction": 3.0,
+   "thesis_fit": 4.0,
+   "overall": 71
+  }
+ }
+]

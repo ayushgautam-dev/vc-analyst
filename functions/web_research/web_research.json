@@ -1,0 +1,14 @@
+{
+  "code": {
+    "$file": "code.py"
+  },
+  "config": null,
+  "description": "Grounded web research: TinyFish live-browser search plus full-page markdown fetch of the top results. Free via Monid. Use for market sizing, competitive scans, and company grounding. Returns results + fetched page text.",
+  "icon_url": null,
+  "name": "web_research",
+  "permissions": {
+    "grants": []
+  },
+  "type": "API",
+  "visibility": "POD"
+}

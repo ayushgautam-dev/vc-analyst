@@ -1,0 +1,6 @@
+{
+  "description": "The fund's deal flow: an inbox of founder intros the pod has read and sorted, a pipeline scored against the team's thesis, and a co-pilot on every deal.",
+  "name": "vc-analyst",
+  "public_slug": "${vc_analyst_slug}",
+  "visibility": "PUBLIC"
+}

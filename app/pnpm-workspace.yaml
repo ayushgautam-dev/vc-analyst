@@ -1,0 +1,5 @@
+allowBuilds:
+  browser-tabs-lock: true
+  esbuild: true
+minimumReleaseAgeExclude:
+  - lemma-sdk@0.7.1

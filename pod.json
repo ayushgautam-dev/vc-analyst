@@ -1,0 +1,17 @@
+{
+  "format_version": 3,
+  "name": "VC Analyst",
+  "description": "An AI deal-flow CRM for a venture team. Founder intros arrive by email, become deals, get scored against the fund's thesis, and wait for a partner to decide. One shared board, one thesis, visible to everyone in the pod.",
+  "variables": {
+    "gmail_intake_account": {
+      "type": "account",
+      "connector": "gmail",
+      "connector_kind": "composio",
+      "description": "Gmail account the gmail-intake automation reads founder intros from. Leave it out on a first import; ./wire-gmail.sh sets it once somebody has connected Gmail."
+    },
+    "vc_analyst_slug": {
+      "type": "app_slug",
+      "description": "Public URL slug for the app (unique platform-wide; a suffix is added on collision)"
+    }
+  }
+}

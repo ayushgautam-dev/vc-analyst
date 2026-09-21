@@ -1,0 +1,40 @@
+{
+  "description": "Builds the fund's thesis row at onboarding from a website or a fund name: the structured stages, geographies, sectors and cheque size the evaluator scores against, plus a short free-text summary. The only thing in this pod that writes the thesis.",
+  "instruction": {
+    "$file": "instruction.md"
+  },
+  "name": "thesis-builder",
+  "permissions": {
+    "grants": [
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "field_options",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.record.write",
+          "datastore.table.read"
+        ],
+        "resource_name": "thesis",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "function.execute"
+        ],
+        "resource_name": "web_research",
+        "resource_type": "function"
+      }
+    ]
+  },
+  "toolsets": [
+    "POD",
+    "WEB_SEARCH"
+  ],
+  "visibility": "POD"
+}

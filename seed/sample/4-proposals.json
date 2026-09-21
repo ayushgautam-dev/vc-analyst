@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c663980b-8616-5d76-aabc-49db1d05fae5",
+  "deal_id": "509eb1f8-134c-5d96-a438-bf21ec561976",
+  "kind": "stage_move",
+  "field_name": "stage",
+  "proposed_value": "screening",
+  "current_value": "new",
+  "reason": "Inside the thesis on sector and stage, with paid pilots — worth a screening call.",
+  "source_class": "message",
+  "confidence": 0.8,
+  "status": "pending"
+ },
+ {
+  "id": "d20ddb5b-93f6-56ca-a358-b6d8d59030e3",
+  "deal_id": "0915e7cd-ec34-5410-a539-fd0e54e4ca3f",
+  "kind": "field",
+  "field_name": "raising_amount",
+  "proposed_value": "$3M",
+  "current_value": null,
+  "reason": "The intro email says they are raising a $3M seed.",
+  "source_class": "message",
+  "confidence": 0.9,
+  "status": "pending"
+ },
+ {
+  "id": "cd541a79-3177-5a8b-b698-ea4743331ed0",
+  "deal_id": "0bb541ec-a871-5c34-8a1b-7be773b9e96a",
+  "kind": "field",
+  "field_name": "arr",
+  "proposed_value": "$210K",
+  "current_value": "$180K",
+  "reason": "Sam's latest email reports $210K ARR, up from $180K on the deck.",
+  "source_class": "message",
+  "confidence": 0.85,
+  "status": "pending"
+ },
+ {
+  "id": "9e7db524-0329-5288-afc5-07e5fc840acd",
+  "deal_id": "fafdd601-5506-5a28-aade-79aaec70a929",
+  "kind": "stage_move",
+  "field_name": "stage",
+  "proposed_value": "ic_review",
+  "current_value": "diligence",
+  "reason": "All three customer calls are done and the data room checks out — ready for IC.",
+  "source_class": "human",
+  "confidence": 0.7,
+  "status": "pending"
+ }
+]

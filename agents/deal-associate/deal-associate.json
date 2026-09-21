@@ -1,0 +1,97 @@
+{
+  "description": "The associate: reads each new deal activity and, conservatively, proposes what (if anything) deserves a partner's attention. Proposes only \u2014 never moves a stage, never writes a task.",
+  "instruction": {
+    "$file": "instruction.md"
+  },
+  "name": "deal-associate",
+  "permissions": {
+    "grants": [
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "deals",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "field_options",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "team",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "thesis",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "activities",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "contacts",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "field_sources",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.record.write",
+          "datastore.table.read"
+        ],
+        "resource_name": "proposals",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "datastore.record.read",
+          "datastore.table.read"
+        ],
+        "resource_name": "reports",
+        "resource_type": "datastore_table"
+      },
+      {
+        "permission_ids": [
+          "folder.write"
+        ],
+        "resource_name": "/memory",
+        "resource_type": "folder"
+      }
+    ]
+  },
+  "toolsets": [
+    "POD",
+    "MEMORY",
+    "WEB_SEARCH"
+  ],
+  "visibility": "POD"
+}
